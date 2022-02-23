@@ -1,0 +1,82 @@
+body{
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+	position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+#myVideo {
+	  object-fit: cover;
+      width: 100vw;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+}
+a.custom-btn {
+	float: right;
+	color: white;
+	border: 1px solid white;
+	transform: scale(0.9);
+	background-color: rgb(0, 0, 0,0.3);
+	border-radius: 0px;
+}
+
+a.custom-btn:hover {
+	float: right;
+	color: white;
+	border: 1px solid white;
+	transform: scale(1.0);
+	background-color: rgb(0, 0, 0,0.9);
+	transition: 1s;
+	border-radius: 0px;
+}
+
+.global-font{
+	color: white;
+	position: relative;
+
+}
+
+.update-list{
+	
+}
+
+.table-color{
+	background-color: rgb(255, 255, 255,0.1);
+	transform: scale(0.8);
+	transition: 1s;
+}
+
+.table-color:hover{
+	background-color: rgb(255, 255, 255,0.9);
+	transform: scale(1.0);
+}
+
+.update-color{
+	background-color: rgb(255, 255, 255,0);
+	transform: scale(0.8);
+	transition: 1s;
+}
+
+.update-color:hover{
+	background-color: rgb(255, 255, 255,0.9);
+	color: black;
+	transform: scale(1.0);
+}
+
+.footer{
+	min-width: 100%;
+	background-color: red;
+	position: relative;
+	bottom: 0;
+}
+
+.logo{
+	transform: scale(0.8);
+	transition: 1s;
+}
+
+.logo:hover{
+	color: black;
+	transform: scale(1.0);
+}
